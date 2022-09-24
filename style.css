@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.body {
+    height: 100vh;
+    width: 80%; 
+}
+button {
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.topnav {
+    margin: 20px;
+    display: flex;
+    position: relative;  
+}
+button:hover {
+    color: red;
+    
+}
+.search {
+    display: none;
+}
+.middle1 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 10px;
+     
+}
+.left1 {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+.right1 {
+    position: absolute;
+    right: 20px;
+    display: flex;
+    gap: 20px;
+}
+.box1 {
+    font-size: 12px;
+    border: 1px solid rgb(84, 0, 0);
+    padding: 3px;
+    border-radius: 4px;
+    background-color: red;
+}
+.box1:hover {
+    border: 1px solid red;
+    color: black;
+}
+.middlenav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    height: 110px;
+    border-top: 1px solid gray;
+}
+.left2 {
+    display: grid;
+    height: fit-content;
+    margin-left: 20px;
+}
+.middle2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+.belownav {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+.middle3 {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-top: 10px;
+}
+.middle3 button:hover {
+    color: black;
+}
